@@ -1,9 +1,31 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Mini-Golf Breathing — 3D",
+  metadataBase: new URL("https://deepbreathing.vercel.app"),
+  title: "breath/k",
   description:
-    "A 3D Rube Goldberg breathing machine — fifteen isometric dioramas, one breath per station. Inhale, exhale, follow the ball.",
+    "deep breathing: it's good for you",
+  openGraph: {
+    title: "breath/k",
+    description:
+      "deep breathing: it's good for you",
+    url: "/",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 600,
+        alt: "Orsetto the bear fishing by a lake, with honey pots he just finished",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "breath/k",
+    description:
+      "deep breathing, it's good for you",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({

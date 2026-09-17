@@ -8,7 +8,7 @@ export default function Home() {
     <main style={{ position: "fixed", inset: 0 }}>
       <iframe
         src="/breathing-animation-rube-goldberg-3d-h.html"
-        title="Break/th"
+        title="break/th"
         allow="autoplay; fullscreen"
         allowFullScreen
         style={{ width: "100%", height: "100%", border: 0, display: "block" }}
